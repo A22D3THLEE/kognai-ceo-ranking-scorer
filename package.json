@@ -1,0 +1,17 @@
+{
+  "name": "kognai-ceo-ranking-scorer",
+  "version": "1.0.0",
+  "description": "Pure ranking of tender bids: price against the ceiling, approach, track record and Cerberus tier.",
+  "type": "module",
+  "main": "src/rankBids.js",
+  "exports": {
+    ".": "./src/rankBids.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
